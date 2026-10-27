@@ -1,0 +1,149 @@
+
+:root{--ink:#20231f;--paper:#f3f0e8;--card:#fbfaf6;--muted:#77786e;--line:#d8d5ca;--acid:#c8ed66;--dark:#253329;--serif:Georgia,'Times New Roman',serif;--sans:Arial,sans-serif;--mono:'Courier New',monospace}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55}.shell{max-width:900px;margin:auto;padding:26px 42px 30px;min-height:100vh;display:flex;flex-direction:column}.top{height:48px;display:flex;align-items:flex-start;justify-content:space-between;border-bottom:1px solid var(--line);font:12px var(--mono);letter-spacing:.03em}.wordmark{color:var(--ink);text-decoration:none;font-weight:500}.wordmark:first-letter{font-weight:500}.wordmark span{color:var(--muted);margin-left:8px}.edition,.eyebrow,.section-kicker,.note-label{font:11px var(--mono);letter-spacing:.09em;color:var(--muted)}#app{flex:1}footer{font:11px var(--mono);color:var(--muted);border-top:1px solid var(--line);padding-top:14px}.start{max-width:650px;margin:74px auto 84px}.start .eyebrow{margin-bottom:20px}.start h1,.result h1{font-size:clamp(48px,8vw,82px);line-height:.99;letter-spacing:-.075em;margin:0 0 27px;font-weight:700}.start h1 em,.result h1 em{font-family:var(--serif);font-weight:400;letter-spacing:-.065em}.lead{font-size:22px;line-height:1.3;font-weight:600;margin:0 0 20px}.intro{max-width:540px;color:#55584f;line-height:1.7}.privacy{display:flex;gap:12px;align-items:flex-start;max-width:520px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0;margin:28px 0 27px;color:#55584f;font-size:14px}.privacy-mark{font:18px var(--mono);color:#718c35}.primary{border:0;background:var(--dark);color:white;padding:16px 19px;font:600 15px var(--sans);display:inline-flex;justify-content:space-between;align-items:center;gap:48px;text-decoration:none;cursor:pointer;min-height:54px;transition:background .18s,transform .18s}.primary:hover{background:#394d3e;transform:translateY(-1px)}.primary span{color:var(--acid);font-size:20px}.question{max-width:660px;margin:34px auto 70px}.progress-meta{display:flex;justify-content:space-between;font:11px var(--mono);letter-spacing:.06em;color:var(--muted)}.progress-meta i{font-style:normal;color:#aaa99f}.progress{height:3px;background:#dedbd0;margin:10px 0 36px}.progress span{display:block;height:100%;background:#718c35;transition:width .25s}.q-count{font:14px var(--mono);color:#758342;margin-bottom:12px}.q-count b{color:#aaa99f;font-weight:400}.question h2{font-size:clamp(26px,4vw,36px);line-height:1.2;letter-spacing:-.04em;margin:0 0 26px}.pair{display:grid;grid-template-columns:1fr 1fr;background:var(--card);border:1px solid var(--line)}.pair>div{padding:17px 20px 20px;min-height:122px}.pair>div+div{border-left:1px solid var(--line)}.pair span{font:12px var(--mono);color:#718c35}.pair p{font-size:15px;line-height:1.5;margin:7px 0 0}.choose-hint{font-size:13px;color:var(--muted);margin:24px 0 10px}.answers{display:grid;gap:8px}.answer{width:100%;display:grid;grid-template-columns:30px 1fr auto;gap:12px;align-items:center;text-align:left;background:transparent;border:1px solid var(--line);min-height:58px;padding:10px 14px;color:var(--ink);font:500 14px var(--sans);cursor:pointer;transition:border .15s,background .15s}.answer:hover{border-color:#77845b;background:#f7f5ed}.answer.selected{border-color:var(--dark);background:var(--dark);color:white}.choice{width:28px;height:28px;display:grid;place-items:center;border:1px solid var(--line);font:12px var(--mono);color:#718c35}.selected .choice{border-color:#83967b;color:var(--acid)}.degree{font:11px var(--mono);color:var(--muted)}.selected .degree{color:#c1c9bf}.question-foot{display:flex;align-items:center;justify-content:space-between;margin-top:20px;color:var(--muted);font:11px var(--mono)}.back,.restart{border:0;background:transparent;color:var(--ink);font:13px var(--sans);cursor:pointer;padding:8px 0}.back:disabled{opacity:.35;cursor:default}.result{max-width:660px;margin:48px auto 74px}.result h1{font-size:clamp(43px,7vw,68px);margin:14px 0 30px}.hypothesis{border-left:3px solid #718c35;padding:8px 0 9px 20px;margin-bottom:20px}.type-code{font:500 clamp(34px,7vw,52px) var(--mono);letter-spacing:.04em}.type-equal{font-size:clamp(22px,5vw,34px);letter-spacing:0}.type-label{font:11px var(--mono);color:var(--muted);letter-spacing:.05em;margin:3px 0 0}.hypothesis>p:not(.type-label){color:#55584f;font-size:14px;max-width:510px}.confidence{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--line);background:var(--card);padding:16px 18px;margin:20px 0 38px}.confidence-dot{width:10px;height:10px;border-radius:50%;background:#9b9b88;margin-top:5px;flex:none}.confidence-dot.medium{background:#c3a344}.confidence-dot.high{background:#718c35}.confidence b{font-size:14px}.confidence p{font-size:13px;color:#606257;margin:4px 0 0;line-height:1.55}.section-kicker{margin-bottom:16px}.result-section{margin:34px 0}.dimensions{border-top:1px solid var(--line)}.dimension{border-bottom:1px solid var(--line);padding:14px 0}.dimension-top{display:flex;justify-content:space-between;font-size:13px}.dimension-top span+span{font:11px var(--mono);color:var(--muted)}.dim-poles{display:flex;align-items:center;gap:10px;margin-top:8px;font:12px var(--mono);color:#a2a398}.dim-poles b{font-weight:400}.dim-poles b.on{color:var(--dark);font-weight:500}.dim-line{height:3px;background:#dedbd0;display:block;flex:1}.dim-line i{height:100%;display:block;background:#718c35}.dimension p,.support p,.note p,.limitation p,.expert p{font-size:14px;color:#55584f;line-height:1.65;margin:7px 0 0}.support p{margin:0 0 9px}.note{background:#e9e6db;padding:18px 20px;margin:22px 0}.note strong{display:block;font:500 20px var(--mono);margin-top:6px}.note-label{color:#71804b}.limitation{border-top:1px solid var(--line);padding-top:18px;margin-top:35px}.expert{background:var(--dark);color:white;padding:22px;margin-top:30px}.expert p{color:#d5d9d2;margin:0 0 18px}.expert-link{max-width:100%;font-size:14px}.restart{margin-top:20px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}.error{max-width:540px;margin:110px auto;text-align:center}.error-mark{width:46px;height:46px;border:1px solid #ad774c;border-radius:50%;display:grid;place-items:center;color:#ad774c;font:20px var(--mono);margin:0 auto 20px}.error h1{font-size:34px;letter-spacing:-.04em}.error p{color:var(--muted);margin:10px auto 25px;max-width:360px}
+@media(max-width:600px){.shell{padding:20px 20px 22px}.top{height:42px}.wordmark span{display:none}.start{margin:56px auto 55px}.start h1{font-size:52px}.lead{font-size:20px}.question{margin:28px auto 48px}.progress{margin-bottom:28px}.pair>div{padding:13px 12px 15px;min-height:135px}.pair p{font-size:14px}.answer{grid-template-columns:27px 1fr auto;gap:9px;min-height:60px;padding:9px 10px;font-size:13px}.degree{font-size:10px}.question-foot span{max-width:190px;text-align:right}.result{margin:38px auto 50px}.result h1{font-size:47px}.expert{padding:18px}.expert-link{gap:16px}.edition{font-size:10px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+.progress-1{width:4.167%}
+.progress-2{width:8.333%}
+.progress-3{width:12.500%}
+.progress-4{width:16.667%}
+.progress-5{width:20.833%}
+.progress-6{width:25.000%}
+.progress-7{width:29.167%}
+.progress-8{width:33.333%}
+.progress-9{width:37.500%}
+.progress-10{width:41.667%}
+.progress-11{width:45.833%}
+.progress-12{width:50.000%}
+.progress-13{width:54.167%}
+.progress-14{width:58.333%}
+.progress-15{width:62.500%}
+.progress-16{width:66.667%}
+.progress-17{width:70.833%}
+.progress-18{width:75.000%}
+.progress-19{width:79.167%}
+.progress-20{width:83.333%}
+.progress-21{width:87.500%}
+.progress-22{width:91.667%}
+.progress-23{width:95.833%}
+.progress-24{width:100.000%}
+.magnitude-0{width:0}
+.magnitude-1{width:8.333%}
+.magnitude-2{width:16.667%}
+.magnitude-3{width:25.000%}
+.magnitude-4{width:33.333%}
+.magnitude-5{width:41.667%}
+.magnitude-6{width:50.000%}
+.magnitude-7{width:58.333%}
+.magnitude-8{width:66.667%}
+.magnitude-9{width:75.000%}
+.magnitude-10{width:83.333%}
+.magnitude-11{width:91.667%}
+.magnitude-12{width:100.000%}
+.answer{grid-template-columns:30px 1fr auto}.answer-label{line-height:1.35}.answer .choice{font-size:11px}.skip-answer{width:100%;margin-top:8px;padding:12px 14px;background:transparent;border:1px dashed var(--line);color:var(--muted);font:500 13px var(--sans);text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px}.skip-answer span{font:11px var(--mono)}.skip-answer.selected{background:#e9e6db;border-color:#718c35;color:var(--ink)}.family-codes{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.family-codes span{font:500 15px var(--mono);padding:8px 10px;background:var(--card);border:1px solid var(--line)}.clarity-caption{font-size:12px!important;color:var(--muted)!important}.context-flag{color:#815e27!important;font:11px var(--mono);letter-spacing:.03em;text-transform:uppercase}.support-item{padding:12px 0;border-bottom:1px solid var(--line)}.support-item b{font-size:13px}.support-item p{margin-top:4px}.type-code{letter-spacing:0}.answer-label{font-size:14px}.result .type-label{margin-top:6px}.skip-answer:focus-visible,.answer:focus-visible,.primary:focus-visible,.back:focus-visible{outline:3px solid #718c35;outline-offset:2px}
+@media(max-width:600px){.answer{grid-template-columns:27px 1fr;gap:9px;min-height:54px}.skip-answer{align-items:flex-start;flex-direction:column;gap:4px}.answer-label{font-size:13px}.family-codes span{font-size:14px}.result .type-code{font-size:clamp(25px,8vw,40px)}}
+.dim-line{position:relative}.dim-line i{position:absolute;top:50%;width:10px;height:10px;border-radius:50%;background:#aaa99f;transform:translate(-50%,-50%);margin:0}.axis-pos .dim-line i{left:78%;background:#718c35}.axis-neg .dim-line i{left:22%;background:#718c35}.axis-mid .dim-line i{left:50%;background:#a9a99d}.code-letters{display:inline-flex;align-items:center;gap:.2em}.code-letters>i{font-style:normal;color:var(--muted);font-size:.48em}.context-code-letter{color:#85601f;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:5px}.context-code-letter sup{font:12px var(--mono);color:#85601f}.family-codes .code-letters{white-space:nowrap}
+/* Contrast and orientation corrections requested for the result and question screens. */
+.axis-pos .dim-line i{left:22%}.axis-neg .dim-line i{left:78%}
+.pair>div>span{display:inline-block;color:#253329;font:700 15px var(--mono);background:#e4edcf;border:1px solid #8da367;border-radius:3px;padding:2px 7px;min-width:30px;text-align:center}.answer .choice{color:#253329;background:#e4edcf;border:2px solid #718c35;border-radius:3px;font:700 14px var(--mono)}.answer.selected .choice{color:#253329;background:var(--acid);border-color:var(--acid)}
+.section-kicker,.note-label,.eyebrow{color:#39452e;font-weight:700}.section-kicker{font-size:12px;letter-spacing:.08em}.note-label{font-size:11px}.dimension-top span+span{color:#45483e}.dim-poles{color:#343a30}.dim-poles b{font-weight:700;color:#45483e}.dim-poles b.on{color:#1c2b20;font-weight:700}.type-label{color:#4a4d43}.clarity-caption{color:#343a30!important;font-size:13px!important}.wordmark{font:700 13px var(--sans);letter-spacing:.01em;color:var(--ink)}.wordmark span{display:none}.expert-link{font-size:14px;gap:14px}
+@media(max-width:600px){.wordmark{font-size:12px}.section-kicker{font-size:11px}.pair>div>span{font-size:14px}}
+/* Latest copy and result refinements */
+.wordmark,.wordmark strong{font-weight:700}.clarity-caption{color:#77786e!important;font-style:italic}.clarity-caption em{font-style:italic}
+.axis-pos .dim-line i{left:0}.axis-neg .dim-line i{left:100%}.axis-mid .dim-line i{left:50%}
+.start .intro{white-space:pre-line}
+/* Keep every brand glyph bold and distinguish the secondary intro paragraph. */
+.wordmark,.wordmark strong{font-weight:700!important;font-family:var(--sans)!important}
+.start .intro-note{max-width:540px;margin:14px 0 0;color:#77786e;line-height:1.7;font-size:15px}
+.start .intro-note em{font-style:italic}
+.section-kicker{font-size:13px!important;color:#303b28!important;letter-spacing:.09em;font-weight:700!important}
+.note-label{font-size:12px!important;color:#303b28!important;font-weight:700!important}
+.result .eyebrow{font-size:12px!important;color:#303b28!important;font-weight:700!important}
+@media(max-width:600px){.section-kicker{font-size:12px!important}}
+/* Header as a regular-weight Telegram link; stronger result section hierarchy. */
+.top .wordmark,.top .wordmark strong{font-weight:400!important;font-family:var(--sans)!important}
+.result .section-kicker,.result .note-label,.result .eyebrow{font-size:15px!important;color:#202a1d!important;font-weight:800!important;letter-spacing:.09em}
+.result .section-kicker{margin-bottom:18px}
+.result .note-label{font-size:13px!important}
+.result .eyebrow{font-size:13px!important}
+@media(max-width:600px){.result .section-kicker{font-size:13px!important}.result .note-label{font-size:12px!important}}
+/* Lower-contrast header and continuous score-positioned axis markers. */
+.top .wordmark{color:#77786e!important}
+.result .dim-line i{left:var(--marker-position,50%)!important}
+
+/* CSP-safe axis marker positions: score magnitude 0..12, no inline style attributes. */
+.axis-pos .marker-step-0{left:50.0000%!important}.axis-neg .marker-step-0{left:50.0000%!important}
+.axis-pos .marker-step-1{left:45.8333%!important}.axis-neg .marker-step-1{left:54.1667%!important}
+.axis-pos .marker-step-2{left:41.6667%!important}.axis-neg .marker-step-2{left:58.3333%!important}
+.axis-pos .marker-step-3{left:37.5000%!important}.axis-neg .marker-step-3{left:62.5000%!important}
+.axis-pos .marker-step-4{left:33.3333%!important}.axis-neg .marker-step-4{left:66.6667%!important}
+.axis-pos .marker-step-5{left:29.1667%!important}.axis-neg .marker-step-5{left:70.8333%!important}
+.axis-pos .marker-step-6{left:25.0000%!important}.axis-neg .marker-step-6{left:75.0000%!important}
+.axis-pos .marker-step-7{left:20.8333%!important}.axis-neg .marker-step-7{left:79.1667%!important}
+.axis-pos .marker-step-8{left:16.6667%!important}.axis-neg .marker-step-8{left:83.3333%!important}
+.axis-pos .marker-step-9{left:12.5000%!important}.axis-neg .marker-step-9{left:87.5000%!important}
+.axis-pos .marker-step-10{left:8.3333%!important}.axis-neg .marker-step-10{left:91.6667%!important}
+.axis-pos .marker-step-11{left:4.1667%!important}.axis-neg .marker-step-11{left:95.8333%!important}
+.axis-pos .marker-step-12{left:0.0000%!important}.axis-neg .marker-step-12{left:100.0000%!important}
+.axis-mid .marker-step-0{left:50%!important}
+/* Restored original fixed marker rule: positive pole left, negative pole right, unresolved center. */
+.result .axis-pos .dim-line i{left:22%!important}
+.result .axis-neg .dim-line i{left:78%!important}
+.result .axis-mid .dim-line i{left:50%!important}
+/* Score scale: +12 reaches positive pole at left, -12 negative pole at right. */
+.result .dim-poles>b{font-size:16px!important;font-weight:800!important;color:#263225!important;min-width:18px;text-align:center}
+.result .dim-poles>b.on{font-size:18px!important;color:#172219!important}
+.result .dim-line i{transition:left .2s ease}
+
+.result .dim-line .score-marker-n12{left:100.0000%!important}
+.result .dim-line .score-marker-n11{left:95.8333%!important}
+.result .dim-line .score-marker-n10{left:91.6667%!important}
+.result .dim-line .score-marker-n9{left:87.5000%!important}
+.result .dim-line .score-marker-n8{left:83.3333%!important}
+.result .dim-line .score-marker-n7{left:79.1667%!important}
+.result .dim-line .score-marker-n6{left:75.0000%!important}
+.result .dim-line .score-marker-n5{left:70.8333%!important}
+.result .dim-line .score-marker-n4{left:66.6667%!important}
+.result .dim-line .score-marker-n3{left:62.5000%!important}
+.result .dim-line .score-marker-n2{left:58.3333%!important}
+.result .dim-line .score-marker-n1{left:54.1667%!important}
+.result .dim-line .score-marker-0{left:50.0000%!important}
+.result .dim-line .score-marker-1{left:45.8333%!important}
+.result .dim-line .score-marker-2{left:41.6667%!important}
+.result .dim-line .score-marker-3{left:37.5000%!important}
+.result .dim-line .score-marker-4{left:33.3333%!important}
+.result .dim-line .score-marker-5{left:29.1667%!important}
+.result .dim-line .score-marker-6{left:25.0000%!important}
+.result .dim-line .score-marker-7{left:20.8333%!important}
+.result .dim-line .score-marker-8{left:16.6667%!important}
+.result .dim-line .score-marker-9{left:12.5000%!important}
+.result .dim-line .score-marker-10{left:8.3333%!important}
+.result .dim-line .score-marker-11{left:4.1667%!important}
+.result .dim-line .score-marker-12{left:0.0000%!important}
+
+/* Higher-specificity score rules override the older direction-only fallback. */
+.result .dimension .dim-line i.score-marker-n12{left:100.0000%!important}
+.result .dimension .dim-line i.score-marker-n11{left:95.8333%!important}
+.result .dimension .dim-line i.score-marker-n10{left:91.6667%!important}
+.result .dimension .dim-line i.score-marker-n9{left:87.5000%!important}
+.result .dimension .dim-line i.score-marker-n8{left:83.3333%!important}
+.result .dimension .dim-line i.score-marker-n7{left:79.1667%!important}
+.result .dimension .dim-line i.score-marker-n6{left:75.0000%!important}
+.result .dimension .dim-line i.score-marker-n5{left:70.8333%!important}
+.result .dimension .dim-line i.score-marker-n4{left:66.6667%!important}
+.result .dimension .dim-line i.score-marker-n3{left:62.5000%!important}
+.result .dimension .dim-line i.score-marker-n2{left:58.3333%!important}
+.result .dimension .dim-line i.score-marker-n1{left:54.1667%!important}
+.result .dimension .dim-line i.score-marker-0{left:50.0000%!important}
+.result .dimension .dim-line i.score-marker-1{left:45.8333%!important}
+.result .dimension .dim-line i.score-marker-2{left:41.6667%!important}
+.result .dimension .dim-line i.score-marker-3{left:37.5000%!important}
+.result .dimension .dim-line i.score-marker-4{left:33.3333%!important}
+.result .dimension .dim-line i.score-marker-5{left:29.1667%!important}
+.result .dimension .dim-line i.score-marker-6{left:25.0000%!important}
+.result .dimension .dim-line i.score-marker-7{left:20.8333%!important}
+.result .dimension .dim-line i.score-marker-8{left:16.6667%!important}
+.result .dimension .dim-line i.score-marker-9{left:12.5000%!important}
+.result .dimension .dim-line i.score-marker-10{left:8.3333%!important}
+.result .dimension .dim-line i.score-marker-11{left:4.1667%!important}
+.result .dimension .dim-line i.score-marker-12{left:0.0000%!important}
